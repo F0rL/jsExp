@@ -1,1 +1,1 @@
-import '../es6+/4-Array数组扩展.js'
+import '../es6+/5-函数的参数'
