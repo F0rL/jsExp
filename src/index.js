@@ -1,1 +1,1 @@
-import '../es6+/3-Array遍历方式'
+import '../es6+/4-Array数组扩展.js'
