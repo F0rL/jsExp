@@ -1,1 +1,1 @@
-import '../es6+/10-类与继承'
+import '../es6+/11-Symbol'
