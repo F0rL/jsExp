@@ -1,1 +1,1 @@
-import '../es6+/5-函数的参数'
+import '../es6+/6-扩展运算符与rest'
