@@ -1,1 +1,1 @@
-import '../es6+/6-扩展运算符与rest'
+import '../es6+/7-箭头函数'
