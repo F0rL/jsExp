@@ -1,7 +1,7 @@
 {
-  "name": "imooc-es-parser",
+  "name": "js-exp",
   "version": "1.0.0",
-  "description": "jsExp",
+  "description": "basic js knowledge",
   "main": "src/index.js",
   "scripts": {
     "dev": "webpack-dev-server --mode=development --config ./build/webpack.config.js",
