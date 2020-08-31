@@ -5,4 +5,5 @@ import '@babel/polyfill' // 解决async问题
 // import '../es6+/20-module'
 // import '../es6+/4-Array数组扩展'
 // import '../es6+/21-幂和指数'
-import '../es6+/22-async-await'
+// import '../es6+/22-async-await'
+import '../es6+/14-字符串的扩展'

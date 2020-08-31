@@ -49,11 +49,25 @@
 // console.log(String.fromCodePoint(0x20bb7))
 
 // indexOf
-const str = 'sadf'
-console.log(str.indexOf('d'))
-console.log(str.includes('f'))
-console.log(str.startsWith('e'))
-console.log(str.endsWith('f'))
+// const str = 'sadf'
+// console.log(str.indexOf('d'))
+// console.log(str.includes('f'))
+// console.log(str.startsWith('e'))
+// console.log(str.endsWith('f'))
 
-const newStr = str.repeat(10)
-console.log(newStr)
+// const newStr = str.repeat(10)
+// console.log(newStr)
+
+// 填充到的目标长度
+// String.prototype.padStart()
+// String.prototype.padEnd()
+// let str = 'dadsf'
+// str.padStart(10, 'xxx')
+// str.padEnd(10, 'xxx')
+
+// yyyy-mm-dd
+// const now = new Date()
+// const year = now.getFullYear()
+// const month = (now.getMonth() + 1).toString().padStart(2, '0')
+// const day = (now.getDate()).toString().padStart(2, '0')
+// console.log(year, month, day)
