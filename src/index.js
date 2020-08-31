@@ -7,4 +7,5 @@ import '@babel/polyfill' // 解决async问题
 // import '../es6+/21-幂和指数'
 // import '../es6+/22-async-await'
 // import '../es6+/14-字符串的扩展'
-import '../es6+/15-正则扩展'
+// import '../es6+/15-正则扩展'
+import '../es6+/23-可选链-空值合并运算符'
