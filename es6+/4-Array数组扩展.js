@@ -66,6 +66,8 @@
 
 // includes
 // indexOf cant select NaN
-// let arr = [1, 2, 3, 'x', 'iis', 'x', NaN]
+// 第二个参数可指定起始位置
+let arr = [1, 2, 3, 'x', 'iis', 'x', NaN]
 // console.log(arr.includes('x'), arr.includes(NaN))
+console.log(arr.includes(1, 4))
 
