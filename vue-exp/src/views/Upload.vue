@@ -27,9 +27,9 @@ export default {
     return {
       client: new OSS({
         region: 'oss-cn-hongkong',
-        bucket: 'test-xfxx',
-        accessKeyId: 'LTAI4GAYurxi2zUgdcfKiYJa',
-        accessKeySecret: 'NnKAZNaNACcelV6eBpBu9RYDKGRJiG',
+        bucket: '',
+        accessKeyId: '',
+        accessKeySecret: '',
       }),
       imgList: [],
       isUploading: false,
@@ -79,8 +79,8 @@ export default {
         .then((res) => {
           // console.log(res)
           const imgs = []
-          for(const item of res) {
-            if(item.status === 'fulfilled'){
+          for (const item of res) {
+            if (item.status === 'fulfilled') {
               imgs.push(item.value)
             }
           }
@@ -90,6 +90,16 @@ export default {
         .catch((err) => {
           console.log(err)
         })
+    },
+    async uploadFilesByOSS2(files) {
+      this.isUploading = true
+      const imgs = []
+      for (const file of files) {
+        const reuslt = await this.client.put(`${Math.random()}-${file.name}`, file)
+        imgs.push(result.url)
+      }
+      this.imgList = imgs
+      this.isUploading = false
     },
   },
 }
